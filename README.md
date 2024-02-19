@@ -2,7 +2,7 @@
 
 tendras que clonar el repositorio con este link
 
-
+https://github.com/FredWard87/faec-gds0551-3.git
 
 #Instalación y Uso del Proyecto
 
