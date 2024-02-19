@@ -1,0 +1,22 @@
+{
+  "users": [
+    {
+      "id": "29ec",
+      "fullName": "Fredy Esparza",
+      "email": "fredyesparza08@gmail.com",
+      "password": "$2a$10$JhcvPUL6d9FsDlL8./F8fOWyRGdvMel6NpvLN7ryPep1.Z//wgTt2"
+    },
+    {
+      "id": "ed22",
+      "fullName": "josue Martinez",
+      "email": "JosueMartinez@gmail.com",
+      "password": "$2a$10$s0sTz3EVyoPSVXH3hV8WKuZm7avH1JtaB9QQKnShAihuNPiRrM4MG"
+    },
+    {
+      "id": "21c1",
+      "fullName": "Josue Mendez",
+      "email": "Joseantonioreyesrivera@gmail.com",
+      "password": "$2a$10$Au6rZSk81l/kHh8Qb.2pte0Aa.c2.L/isqNcttjNlXtO07Zvrs6F2"
+    }
+  ]
+}
