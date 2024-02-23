@@ -14,7 +14,7 @@ form {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #f7d9e2; /* Color de fondo rosa pastel */
+    background-color: #ffffff; /* Color de fondo rosa pastel */
 }
 
 p-card {
@@ -36,7 +36,7 @@ input[type="text"],
 input[type="password"] {
     width: 100%;
     padding: 0.5rem;
-    border: 1px solid #ccc;
+    border: 1px solid #2b00ff;
     border-radius: 5px;
 }
 
@@ -66,20 +66,20 @@ button[type="submit"] {
     margin-top: 1rem;
 }
 body {
-    background-color: #f7d9e2; /* Color de fondo rosa pastel */
+    background-color: #ffffff; /* Color de fondo rosa pastel */
     margin: 0; /* Eliminar el margen predeterminado del cuerpo */
     padding: 0; /* Eliminar el relleno predeterminado del cuerpo */
 }
 /* Color de fondo de la página */
 body {
-    background-color: #f7d9e2; /* Rosa pastel */
+    background-color: #ffffff; /* Rosa pastel */
     margin: 0;
     padding: 0;
 }
 
 /* Estilos para el formulario */
 p-card {
-    background-color: #b74af2; /* Fondo blanco */
+    background-color: #0800ff; /* Fondo blanco */
     padding: 2rem;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -122,12 +122,12 @@ input[type="password"] {
 
 button[type="submit"] {
     width: 100%;
-    background-color: #b9266f; /* Rosa intenso */
-    color: #fff; /* Texto blanco */
+    background-color: #0800fe; /* Rosa intenso */
+    color: #010101; /* Texto blanco */
 }
 
 button[type="submit"]:hover {
-    background-color: #ff1493; /* Rosa intenso más oscuro al pasar el ratón */
+    background-color: #0800fe; /* Rosa intenso más oscuro al pasar el ratón */
 }
 
 .mt-2 {
@@ -136,9 +136,9 @@ button[type="submit"]:hover {
 }
 
 a {
-    color: #5c1337; /* Color del enlace rosa */
+    color: #0800fe; /* Color del enlace rosa */
 }
 
 a:hover {
-    color: #a3119f; /* Color del enlace rosa más oscuro al pasar el ratón */
+    color: #0800fe; /* Color del enlace rosa más oscuro al pasar el ratón */
 }

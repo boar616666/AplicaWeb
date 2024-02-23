@@ -6,8 +6,8 @@ body {
 }
 
 header {
-    background-color: #333;
-    color: #fff;
+    background-color: #fdfafa;
+    color: #1a1a1a;
     padding: 20px;
     text-align: center;
 }
@@ -37,7 +37,7 @@ section {
 
 /* Estilos para el botón de salir */
 .logout-button {
-    background-color: #f44336;
+    background-color: #ffffff;
     color: #fff;
     border: none;
     padding: 10px 20px;
@@ -47,7 +47,7 @@ section {
 }
 
 .logout-button:hover {
-    background-color: #d32f2f;
+    background-color: #3a2fd3;
 }
 
 /* Estilos para los productos */
