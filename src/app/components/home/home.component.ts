@@ -1,20 +1,25 @@
 import { Component } from '@angular/core';
 import { Router } from '@angular/router';
-import { MessageService } from 'primeng/api';
 
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
-  styleUrl: './home.component.css'
+  styleUrls: ['./home.component.css']
 })
 export class HomeComponent {
+  images: string[];  // Array de imágenes
 
-  constructor(private router: Router){
-    
+  constructor(private router: Router) {
+    // Rutas correctas de imágenes
+    this.images = [
+      'assets/1.png',
+      'assets/3.png',
+      'assets/compu2.jpg'
+    ];
   }
 
-  logOut(){
-    sessionStorage.clear()
-    this.router.navigate(['login'])
+  logOut() {
+    sessionStorage.clear();
+    this.router.navigate(['login']);
   }
 }
