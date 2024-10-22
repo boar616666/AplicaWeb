@@ -14,7 +14,7 @@ export class HomeComponent {
     this.images = [
       'assets/1.png',
       'assets/3.png',
-      'assets/compu2.jpg'
+      'assets/2.png'
     ];
   }
 

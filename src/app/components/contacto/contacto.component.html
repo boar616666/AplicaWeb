@@ -1,26 +1,15 @@
 <!DOCTYPE html>
-<app-header></app-header>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lista de Contactos</title>
     <link rel="stylesheet" href="contacto.component.css"> <!-- Enlace al archivo CSS -->
-    <style>
-        /* Agregar margen superior al cuerpo de la página */
-        body {
-            margin-top: 150px; /* Incrementé el valor para mover el contenido más abajo */
-        }
-
-        /* Opcional: también puedes agregar algo de margen al encabezado */
-        h1 {
-            margin-top: 50px; /* Ajusta este valor si es necesario */
-        }
-    </style>
 </head>
 <body>
+    <app-header></app-header>  
+    <app-navbar></app-navbar>  
 
-    <app-navbar></app-navbar>
     <!-- Contenido de la página de contacto -->
     <h1>Lista de Contactos</h1>
     <table>
@@ -54,6 +43,5 @@
             </tr>
         </tbody>
     </table>
-
 </body>
 </html>

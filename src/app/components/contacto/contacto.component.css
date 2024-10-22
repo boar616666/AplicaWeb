@@ -2,15 +2,22 @@
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
+    margin: 0;  /* Eliminamos el margen global */
+    padding: 0; /* Eliminamos el padding global */
+}
+
+/* Estilos para el header y navbar */
+app-header, app-navbar {
     margin: 0;
-    padding: 20px;
+    padding: 0;
+    display: block;
 }
 
 /* Ajustes para la tabla */
 table {
     width: 100%;
     border-collapse: collapse;
-    margin-top: 100px;  /* Ajuste de margen superior para que no se encime con la navbar */
+    margin-top: 20px;  /* Ajuste de margen superior */
     background-color: #fff;
 }
 
@@ -31,7 +38,6 @@ tr:hover {
 
 /* Ajuste para que el contenido no se encime con la navbar */
 .content {
-    margin-top: 60px;  /* Asegura que el contenido esté por debajo de la navbar */
+    margin-top: 20px;  /* Ajustamos el margen para no chocar con la navbar */
     padding: 20px;
 }
-
